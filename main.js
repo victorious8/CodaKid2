@@ -116,9 +116,24 @@ function playerEnemyCollision(player, enemy, scene) {
   enemyGroup.getChildren().forEach(enemy => {
     move(enemy, scene);
   });
-  emitter.explode(40, player.x, player.y);
-  emitter.explode(40, player.x, player.y);
-  emitter.explode(40, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
+  emitter.explode(80, player.x, player.y);
   // Decrease player's lives and update the text
 
   lives -= 1;
