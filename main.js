@@ -60,7 +60,7 @@ function create() {
     {
       frame: ['red', 'yellow', 'green', 'blue', 'purple'],
       lifespan: 1000,
-      speed: { min: 50, max: 100 },
+      speed: { min: 300, max: 300 },
       emitting: false
     });
   // Check for overlap between lasers and enemies
