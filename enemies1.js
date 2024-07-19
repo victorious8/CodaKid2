@@ -3,7 +3,7 @@ class EnemyGroup extends Phaser.Physics.Arcade.Group {
     super(scene.physics.world, scene);
     this.createMultiple({
       key: 'enemy', // Replace 'enemy' with your actual enemy sprite key
-      frameQuantity: 20, // Adjust the number of enemies you want to create
+      frameQuantity: 100, // Adjust the number of enemies you want to create
       active: false,
       visible: false
     });
